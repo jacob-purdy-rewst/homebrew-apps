@@ -1,10 +1,10 @@
 cask "gather" do
   # Update version, sha256, and url when a new Gather release ships.
   # Pushing this file to jacob-purdy-rewst/homebrew-apps is the approval gate for device upgrades.
-  version "TODO"
-  sha256 "TODO"
+  version "1.37.1"
+  sha256 "3fcdbc7c4a2ab678fc299b2b68ab64af023c43d0deb0940ff8f244fcacac57cd"
 
-  url "https://downloads.gather.town/mac/Gather-#{version}.dmg"
+  url "https://api.v2.gather.town/api/v2/releases/latest/macos/v1"
   name "Gather"
   desc "Virtual space for remote teams"
   homepage "https://gather.town"
